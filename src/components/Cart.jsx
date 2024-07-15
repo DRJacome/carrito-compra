@@ -42,8 +42,9 @@ export function Cart() {
                         />
                     ))}
                 </ul>
-                <button onClick={clearCart}>
+                <button className='clearCartButton' onClick={clearCart}>
                     <ClearCartIcon />
+                    Vaciar carrito
                 </button>
             </aside>
         </>
