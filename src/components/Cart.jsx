@@ -44,7 +44,7 @@ export function Cart() {
                 </ul>
                 <button className='clearCartButton' onClick={clearCart}>
                     <ClearCartIcon />
-                    Vaciar carrito
+                    <span>Vaciar carrito</span>
                 </button>
             </aside>
         </>

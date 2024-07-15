@@ -57,5 +57,9 @@
 
 .clearCartButton {
     display: flex;
-    padding-left: 35px;
+    padding-left: 25px;
+}
+
+.clearCartButton span {
+    padding-left: 10px;
 }
